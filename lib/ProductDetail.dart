@@ -16,7 +16,7 @@ class ProductDetail extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text('Product Detail'),
+        title: const Text('Product Detail'),
       ),
       body: SingleChildScrollView(
         padding: EdgeInsets.all(20),
